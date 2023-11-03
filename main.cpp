@@ -34,6 +34,7 @@ int getMin(const std::vector<int>& numbers) {
     return min;
 }
 
+
 int main() {
     std::vector<int> numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 
@@ -44,6 +45,7 @@ int main() {
     std::cout << "Sum of elements in the vector: " << sum << std::endl;
     std::cout << "Average of elements in the vector: " << average << std::endl;
     std::cout << "Minimum element in the vector: " << min << std::endl;
+
 
     return 0;
 }
